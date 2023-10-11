@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="659" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="503" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="verofertas&#xa;verofertas -&gt; parentecisA -&gt; cadenas|identificadores -&gt; coma -&gt; tipo|identificadores -&gt; parentecisC -&gt; finlinea&#xa;&#xa;vermesas&#xa;vermesas -&gt;  parentecisA -&gt; numero|identificadores -&gt; parentecisC -&gt; finlinea&#xa;&#xa;timepopedido&#xa;tiempopedido-&gt;  parentecisA -&gt; numero|identificadores -&gt; parentecisC -&gt; finlinea&#xa;&#xa;numero&#xa;identificadores&#xa;var -&gt; identificadores -&gt; tipoDato -&gt; asignacion -&gt; finlinea&#xa;&#xa;vermenu&#xa;vermenu -&gt;  parentecisA -&gt; cadena|identificadores -&gt; coma -&gt; tipo|identificadores -&gt;  parentecisC -&gt; finlinea&#xa;&#xa;variables&#xa;var -&gt; nombre -&gt; finlinea&#xa;&#xa;realizarpedido&#xa;realizarpedido -&gt; parentecisA -&gt; hDia|identificadores -&gt; coma -&gt; numero|identificadores -&gt; coma -&gt;&#xa;&#x9;&#x9;  cadenas|identificadores -&gt; coma -&gt; booleano|identificadores-&gt; parentecisC -&gt; finlinea&#xa;solicitarmesero&#xa;solicitarmesero -&gt;  parentecisA -&gt; numero|identificadores -&gt; parentecisC -&gt; finlinea&#xa;&#xa;iluminarcamino&#xa;ilumniarcamino -&gt;  parentecisA -&gt; numero|identificadores -&gt; parentecisC -&gt; finlinea&#xa;&#xa;declararmenu&#xa;declararmenu -&gt; parentecisA -&gt; cadenas|identificadores -&gt; coma -&gt; cadenas|identificadores -&gt; coma -&gt; dinero|identificadores -&gt;&#xa;   &#x9;&#x9;coma -&gt; tipo|identificadores -&gt; arreglo|identificadores -&gt; parentecisC -&gt; finlinea&#xa;&#xa;prepmesa&#xa;prepmesa -&gt;  parentecisA -&gt; numero|identificadores -&gt; coma -&gt; numero|identificadores -&gt; parentecisC -&gt; finlinea&#xa;&#xa;if&#xa;if -&gt; parentecisA -&gt; Identificadores|numero -&gt; operadorLogico -&gt; numero|identificadores -&gt; parentecisC -&gt; CorcheteA -&gt; CorcheteC&#xa;&#xa;pantalla&#xa;print -&gt; parentecisA -&gt; Identificadores|Cadenas-&gt; parentecisC -&gt; finlinea&#xa;&#xa;for&#xa;for -&gt;  parentecisA -&gt; Identificadores|numero -&gt; asignacion-&gt; numero|identificadores -&gt; coma -&gt;&#xa;&#x9;Identificadores|numero -&gt; asignacion|operadores logicos-&gt; numero|identificadores -&gt; coma -&gt;&#xa;&#x9;Identificadores|numero -&gt; aSigno Aritmetico-&gt; Signo Aritmetico -&gt; &#xa; &#x9;parentecisC -&gt; CorcheteA -&gt; CorcheteC&#xa;&#xa;while&#xa;if -&gt; parentecisA -&gt; Identificadores|numero -&gt; operadorLogico -&gt; numero|identificadores -&gt; parentecisC -&gt; CorcheteA -&gt; CorcheteC&#xa;&#xa;main&#xa;main -&gt;parentecisA -&gt; parentecisC -&gt; CorcheteA -&gt; CorcheteC"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

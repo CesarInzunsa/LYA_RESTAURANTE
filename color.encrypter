@@ -1,0 +1,48 @@
+main(){
+//Soy un comentario
+/*
+Aqui van muchas lineas de comentarios
+Linea 1
+Linea 2
+*/
+var horadeldia string;
+var elPedido int;
+var numeroDeLaMesa int;
+var numero int;
+var tipo string;
+var ingrediente string;
+var laHora int = 5;
+var nombre string = 'ensalada';
+var dinero float  = $580;
+
+//prepararmesa es declarar mesa, el primer parametro es el numero de la mesa y el segundo es la cantidad de sillas
+prepararmesa(5, 3); 
+vermesa(5);
+iluminarcamino(5);
+//solicitarmesero(5);
+
+//vermenu(laHora,vegetariano);
+declararmenu('Ensalada','Una ensalada de restaurante caro',$200,vegetariano,mañana);
+declararmenu('Ensalada','Una ensalada de restaurante caro',$100,vegetariano,mañana);
+declararmenu('tofu','Una ensalada de restaurante caro',$400,vegetariano,tarde);
+declararmenu('tofu','Una ensalada de restaurante caro',$400,vegetariano,tarde);
+declararmenu('Enchiladas','Una ensalada de restaurante caro',$400,vegetariano,noche);
+declararmenu('Enchiladas','Una ensalada de restaurante caro',$400,vegetariano,noche);
+//
+declararmenu('Hamburguesa','Una hamburguesa',$580,pesqueteriano,mañana);
+declararmenu('Hamburguesa','Una hamburguesa',$580,pesqueteriano,mañana);
+declararmenu('Hot dog','descripcion',$580,pesqueteriano,tarde);
+declararmenu('Hot dog','descripcion',$580,pesqueteriano,tarde);
+declararmenu('papas','descripcion',$580,pesqueteriano,noche);
+declararmenu('papas','descripcion',$580,pesqueteriano,noche);
+//
+declararmenu('Pescado','Un pescado',$300,regular,mañana);
+declararmenu('Pescado','Un pescado',$300,regular,mañana);
+declararmenu('sushi','Un pescado',$300,regular,tarde);
+declararmenu('sushi','Un pescado',$300,regular,tarde);
+declararmenu('Pescado','Un pescado',$300,regular,noche);
+declararmenu('Pescado','Un pescado',$300,regular,noche);
+vermenu(mañana,vegetariano);
+realizarpedido(mañana,5,'Hamburguesa',false);
+solicitarmesero(5);
+};
